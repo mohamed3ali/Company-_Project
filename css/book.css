@@ -1,0 +1,284 @@
+* {
+	margin:0px;
+	padding:0px;
+	box-sizing:bolder-box
+}
+.contanier{width:80%;margin:auto;height:50px}
+
+
+
+.navbar {
+position:fixed;
+background:#555;
+width:100%;
+z-index:1
+	
+}
+
+.navbar h1 {width:40%;float:left;padding:10px 20px;font-size:30px;color:#000}
+.navbar .nav ul {width;60%;float:left;} 
+.navbar .nav li {list-style:none;display:inline-block;font-size:15px;font-weight:bold}
+.navbar .nav > li > a {text-decoration:none;padding:15px;display:block;color:#000}
+.navbar .nav  > li > a:after {
+	content:"";
+	width:0;
+	height:3px;
+	background-color:#6195ff;
+	display:block;
+	transition: 0.5s
+}
+.navbar .nav > li > a.active:after {
+	width:100%
+}
+.navbar .nav > li > a:hover:after {
+	width:100%;
+}
+
+.take {
+padding-top:70px;
+background:#f1f1f1;
+height:140px
+}
+.take-content {
+overflow:hidden;
+}
+
+.take-title {
+float:left;
+width:70%;
+text-transform:capitalize;
+font-size:40px;
+margin-top:30px
+
+}
+
+.take-links {
+float:left;
+width:30%;
+
+}
+.take-links li {
+	list-style:none;
+	display:inline-block;
+	margin-top:50px;
+	font-size:20px;
+	text-transform:capitalize;
+
+}
+.take-links li a {
+	text-decoration:none;
+	color:#6195ff;
+}
+.take-links a li {
+	color:#6195ff;
+}
+.gott {
+	padding-top:100px
+}
+.gott-content {
+	overflow:hidden
+}
+.gott-item {
+	float:left;
+	width:70%;
+	position:relative
+}
+.gott-list li {
+margin-top:2px;
+float:left;
+	padding:10px;
+
+
+
+}
+.gott-list li i {
+color:#6195ff;
+}
+.gott-para {
+	padding-top:40px;
+	left:0
+	
+}
+.gott-tot {
+	padding-top:5px;
+	color:#CCC;
+	text-transform:capitalize
+}
+.tages {
+	overflow:hidden;
+	padding-top:50px
+}
+.tages-content {
+	float:left
+}
+.tages-item {
+		float:left;
+		padding-left:10px
+}
+.tages-take {
+	width:100px;
+	height:20px;
+	background:#CCC;
+	margin:3px
+}
+.tages-take li {
+	list-style:none
+}
+.tages-take li i {
+	color:#6195ff;
+	margin:2px
+}
+.join {
+padding-top:50px
+	
+}
+.join-img {
+float:left
+}
+.join-img img {
+	width:250px;
+	height:150px
+}
+.join-content {
+	display:inline;
+	padding:5px;
+	line-height:1.5;
+		
+}
+.move {
+		float:left;
+	width:30%;
+	
+}
+.move-serach {
+	width:200px;
+	height:30px;
+		background:#efefef;
+	border:1px solid #CCC;
+	overflow:hidden
+}
+.move-tot {
+padding:3px;
+	text-transform:capitalize;
+	float:left;
+	color:#CCC
+
+}
+.move-serach i {
+	float:left;
+	color:#6195ff;
+	margin-left:110px;
+padding-top:6px
+}
+.section {
+	padding-top:30px
+}
+.section-title {
+	text-transform:uppercase
+}
+.section .line {
+margin:3px;
+	display:block;
+	height:5px;
+	width:60px;
+	background-color:#6195ff
+}
+.move-book {
+	padding-top:20px
+}
+.move-book .move-toon {
+	padding-top:10px;
+	text-transform:capitalize
+}
+.move-toon span {
+	margin-left:50%;
+	color:#6195ff;
+}
+.move-itema {
+	padding-top:20px;
+	overflow:hidden
+
+}
+.move-itema img{
+	width:100px;
+	height:70px
+}
+.move-img {
+	float:left
+}
+.move-totl {
+	margin-left:3%;
+		float:left;
+		line-height:1.5
+}
+.move-hea {
+	text-transform:capitalize
+}
+.move-von {
+	color:#6195ff;
+}
+.move-sectionlol {
+	padding-top:5px
+}
+.move-sectionlol button {
+width:50px;
+height:30px
+}
+.move-sectionlolll {
+	padding-top:5px
+}
+.move-sectionlolll button {
+	width:100px;
+	height:30px
+}
+.move-sectionlollll {
+	padding-top:5px
+}
+.move-sectionlollll button {
+	width:100px;
+	height:30px
+}
+
+
+
+.foot {
+	background:#1c1d21;
+	width:100%;
+	height:350px;
+	text-align:center;
+	padding-top:50px
+}
+
+
+.foot-content .foot-title {
+	text-align:center;
+	color:#FFF;
+	font-size:50px;
+	text-transform:uppercase;
+	padding:30px
+}
+.foot-list {
+	list-style:none;
+	margin:10px 0;
+}
+.foot-list li {
+	display:inline-block
+}
+.foot-list li a{ 
+width:50px;
+height:50px;
+display:block;
+background:#6195ff;
+color:#FFF;
+margin:0 5px;
+border-radius:50%
+}
+.foot-list li a i {
+	line-height:50px
+}
+.foot .copyright {
+	color:#999;
+	text-transform:uppercase;
+	font-size:14px;
+	padding:20px
+}
